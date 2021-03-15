@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Butcherman&family=East+Sea+Dokdo&family=Romanesco&display=swap" rel="stylesheet">
+    <title>Fortune Teller</title>
+
+    <style>
+        body {
+            background-image: url(https://media.giphy.com/media/dw2yCF4MhcNmSMgpfe/giphy.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        button {
+            font-size: 40px;
+            background-color: transparent;
+            border: 5px solid aqua;
+            color: black;
+            margin-left: 600px;
+            font-family: 'Romanesco', cursive;
+        }
+
+        h2#btn {
+            color: black;
+            font-size: 48px;
+            text-align: center;
+            margin-top: 300px;
+
+        }
+
+        h1,
+        h2 {
+            color: #eeee;
+            font-family: 'Romanesco', cursive;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>2020 has not been easy. See your fortune for what 2021 will hold</h1>
+    <h2>It may not be all roses and sunshine <i>Look at your OWN RISK...</i> </h2>
+
+    <button onclick="tellFortune()">&#127801 See your Fortune</button>
+
+    <!-- <button onclick="tellFortune">See your Fortune</button> -->
+    <h2 id="btn"></h2>
+
+
+    <script src="app.js" defer></script>
+</body>
+
+
+</html>
